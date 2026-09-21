@@ -20,7 +20,7 @@ public class BookingApiTests : BaseApiTest
     {
         Name               = "Olha Mi",
         Email              = EnvConfig.Email,
-        Telephone          = "+380666374287",
+        Telephone          = "+380000374287",
         PaymentMethod      = "PAY_AT_VENUE",
         ExpectedTotalPrice = new ExpectedTotalPrice { Amount = 3, CurrencyCode = "EUR" },
         AllowMarketing     = new AllowMarketing { Treatwell = false, Venue = false },
